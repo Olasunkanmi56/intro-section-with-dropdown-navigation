@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="stylesheet" href="style.css">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <nav class="nav-center">
+    <div class="nav-header">
+      <img src="./images/logo.svg" class="logo" alt="">
+      <button class="btn-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    <ul class="links-desk">
+     <li>
+       <a href="#">Features
+        <span><img src="./images/icon-arrow-down.svg" alt=""></span>
+       </a>
+      <ul>
+        <li><a href="#">Todolist</a></li>
+        <li><a href="#">Reminders</a></li>
+        <li><a href="#">Planning</a></li>
+      </ul>
+     </li>
+     <li>
+       <a href="#">Company 
+        <span><img src="./images/icon-arrow-down.svg" alt=""></span>
+       </a>
+       <ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Our team</a></li>
+        <li><a href="#">blog</a></li>
+      </ul>
+     </li>
+     <li>
+       <a href="#">Careers</a>
+     </li>
+     <li>
+       <a href="#">About</a>
+     </li>
+   </ul>
+  </div>
+   <div class="btn-side2">
+    <button class="side-btn1">Login</button>
+    <button class="side-btn1">Register</button>
+   </div>
+  </nav>
+<main>
+  <article class="content">
+    <div class="content__body">
+        <img class="hero" src="./images/image-hero-mobile.png" alt="">
+        <img class="hero2" src="./images/image-hero-desktop.png" alt="">
+          <div class="content-body">
+             <h1>Make remote work</h1>
+           <p >
+            Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.
+           </p>
+           <div class="btn-learn">
+             <button class="btn">Learn more</button>
+            </div>
+            <div class="icon-list">
+              <img class="icons" src="./images/client-databiz.svg" alt="">
+              <img class="icons" src="./images/client-audiophile.svg" alt="">
+              <img class="icons" src="./images/client-meet.svg" alt="">
+              <img class="icons" src="./images/client-maker.svg" alt="">
+            </div>
+          </div>
+        </div>
+        </article>
+  <aside class="sidebar">
+    <div class="close-btn">
+      <buttton class="sidebar-toggle">
+        <img src="./images/icon-close-menu.svg" alt="">
+      </buttton>
+    </div>
+    <ul class="links">
+      <li>
+        <a class="dropdown-btn">Features
+          <span><img src="./images/icon-arrow-down.svg" alt=""></span>
+        </a>
+        <ul>
+          <li>
+            <a href="#">
+              <img class="item" src="./images/icon-todo.svg" alt="">Todo List
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="item" src="./images/icon-reminders.svg" alt="">Reminders
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="item" src="./images/icon-planning.svg" alt="">Planning
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="dropdown-btn">Company
+          <span><img src="./images/icon-arrow-down.svg" alt=""></span>
+        </a>
+        <ul>
+          <li>
+            <a class="item" href="#">
+             History
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Our team
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Blog
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <div class="btn-side">
+    <button class="side-btn">Login</button>
+    <button class="side-btn">Register</button>
+    </div>
+  </aside>
+</main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
